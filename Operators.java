@@ -26,6 +26,7 @@ public class Operators {
         System.out.println(a<=b);
         System.out.println(b>=c); 
 
+        // 3. LOGICAL OPERATOR
         int age=23;
         System.out.println(age>=18 && age<=60);
 
