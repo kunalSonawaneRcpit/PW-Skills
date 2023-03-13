@@ -20,9 +20,18 @@ public class Operators {
         a=10;
         int b=10;
         c=20;
-        System.out.println(a==b);
+        boolean res=a==b;
+        System.out.println(res);
         System.out.println(a==c);
         System.out.println(a<=b);
         System.out.println(b>=c); 
+
+        int age=23;
+        System.out.println(age>=18 && age<=60);
+
+        a=10;
+        b=20;
+        c=30;
+        System.out.println(a>=b || c<b || a<=c);
     }
 }
